@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AlphabetSquare {
+public class UpperCaseAlphabet {
     // ABCDE
     // ABCDE
     // ABCDE
@@ -13,10 +13,11 @@ public class AlphabetSquare {
 
         for(int i= 1; i<=row; i++){
             for (int j = 1;j<=col; j++){
-                System.out.println("A B C D");
+                System.out.print((char) (j +64) +" ");
             }
+            System.out.println();
         }
         
-        
+        sc.close();
     }
 }

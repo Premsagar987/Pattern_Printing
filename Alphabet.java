@@ -1,0 +1,19 @@
+public class Alphabet {
+    // 1
+    // A B
+    // 1 2 3 
+    // A B C D
+    // ?1 2 3 4 5
+
+}
+
+
+
+
+
+// REVERSE   TRIANGALE 
+// * * * * *
+// * * * * 
+// * * * 
+// * *
+// *

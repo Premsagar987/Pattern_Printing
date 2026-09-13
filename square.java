@@ -1,9 +1,14 @@
+
+import java.util.Scanner;
+
 public class square {
     public static void main(String[] args) {
-        int n = 5;
+        System.out.println("enter the number of row and column:");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         for(int i = 0; i<=n; i++ ){
             for (int j = 1 ; j<=n; j++){
-                System.out.print(" * ");
+                System.out.print((char)(j +64)+" ");
             }
             System.out.println(" ");
             
